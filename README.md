@@ -1,6 +1,5 @@
 # IOT-Flow-Monitoring-System
 
-
 ### Introduction
 This project introduces an IoT-based Water Monitoring System using NodeMCU, YFS201 flow sensor, and a 4-pin OLED display. It allows real-time monitoring of water flow rate and volume, both on-site and remotely via ThingSpeak.
 
@@ -12,13 +11,22 @@ This project introduces an IoT-based Water Monitoring System using NodeMCU, YFS2
 
 ### Connections
 
-| Component              | NodeMCU Pin      |
-|------------------------|------------------|
-| YF-S201 Flow Sensor    | GPIO2 (D4)       |
-| OLED Display SDA       | GPIO4 (D2)       |
-| OLED Display SCL       | GPIO5 (D1)       |
-| YF-S201 Power          | Vin (5V)         |
-| OLED Display Power     | 3.3V             |
+#### YF-S201 Flow Sensor
+
+| Pin         | NodeMCU Pin  |
+|-------------|---------------|
+| Data        | GPIO2 (D4)    |
+| Power (5V)  | Vin           |
+| Ground      | GND           |
+
+#### OLED Display
+
+| Pin         | NodeMCU Pin  |
+|-------------|---------------|
+| SDA         | GPIO4 (D2)    |
+| SCL         | GPIO5 (D1)    |
+| Power (3.3V)| 3.3V          |
+| Ground      | GND           |
 
 ### Uses
 - **Home Automation:** Monitor water consumption to promote conservation.
