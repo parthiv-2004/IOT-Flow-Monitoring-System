@@ -34,6 +34,9 @@ This project introduces an IoT-based Water Monitoring System using NodeMCU, YFS2
 - **Agriculture:** Optimize irrigation with real-time water flow data.
 - **Environmental Research:** Monitor natural water bodies for conservation.
 
+### Project Visual
+![20231203_090733_1_11zon](https://github.com/user-attachments/assets/d92d9d71-9d05-45ad-85f0-74c2b47cbd6e)
+
 ### Resources
 - [IoT Water Flow Meter using ESP8266 & Water Flow Sensor](https://how2electronics.com/iot-water-flow-meter-using-esp8266-water-flow-sensor/)
 - Arduino IDE
